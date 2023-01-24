@@ -28,7 +28,7 @@ void swap_list(listint_t **ptr, listint_t **ptr1, int n)
 	temp->next = aux;
 
 	if (n == 0)
-		*ptr = tmp;
+		*ptr = temp;
 	else
 		*ptr1 = aux;
 }
